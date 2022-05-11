@@ -34,13 +34,16 @@ function runGame(){
     if(winningPicks.includes(combinedChoices)){
         console.log('You Win');
         document.getElementById('lastScoreResult').textContent = "You Win 🏆";
+        document.body.style.backgroundColor = "#90EE90";
         userScore();
     } else if(drawPicks.includes(combinedChoices)){
         console.log('You Draw');
         document.getElementById('lastScoreResult').textContent = "It's a Draw";
+        document.body.style.backgroundColor = "#ffffe0";
     } else{
         console.log('You Lose');
         document.getElementById('lastScoreResult').textContent = "You Lose 😢";
+        document.body.style.backgroundColor = "#ffcccb";
         computerScore();
     }
 }

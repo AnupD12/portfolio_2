@@ -62,7 +62,7 @@ h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1rem;
     color: #EE4E34;
-    background: #FCEDDA;
+    background: inherit;
     border: none;
     margin-right: 10%;
 }
@@ -82,3 +82,4 @@ h2 {
 .rules-btn:hover {
     transform: scale(1.5);
 }
+

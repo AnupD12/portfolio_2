@@ -37,7 +37,7 @@ The user and the randomized computer choices are compared agaisnt each other and
 This has been check several times and the correct outcome appears everytime <br>
 ### Validator Testing <br>
 * HTML <br>
-    * No errors were returned when passing through the official <br>
+    * No errors were returned when passing through the official [W3C HTML vaidator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanupd12.github.io%2Fportfolio_2%2F) <br>
 * CSS <br>
     * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanupd12.github.io%2Fportfolio_2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) <br>
 * JavaScript <br>
@@ -51,7 +51,7 @@ This has been check several times and the correct outcome appears everytime <br>
     * In the GitHub repository, navigate to the Settings tab<br>
     * From the source section drop-down menu, select the Master Branch<br>
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. <br>
-The live link can be found here - <br>
+The live link can be found here - https://anupd12.github.io/portfolio_2/ <br>
 ## Credits <br>
 The images used in this project are emojis on the windows client <br>
 The Rules button links to a webpage<br>

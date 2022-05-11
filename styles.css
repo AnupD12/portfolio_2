@@ -88,4 +88,8 @@ h2 {
     .heading {
     display: none;
     }
+
+    .bottom-buttons {
+        margin-top: 0.5%;
+    }
 }

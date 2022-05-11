@@ -39,7 +39,7 @@ function runGame(){
     } else if(drawPicks.includes(combinedChoices)){
         console.log('You Draw');
         document.getElementById('lastScoreResult').textContent = "It's a Draw";
-        document.body.style.backgroundColor = "#ffffe0";
+        document.body.style.backgroundColor = "#FFFA54";
     } else{
         console.log('You Lose');
         document.getElementById('lastScoreResult').textContent = "You Lose 😢";

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Titillium+Web:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Rock Paper Scissors Lizard Spock</h1>
+ <h2>Choose your option</h2>
+ <span id="arrow">⬇</span>
+ <div class="btns">
+ <button class="btn" id="rock">👊</button>
+ <button class="btn" id="paper">✋</button>
+ <button class="btn" id="scissors">✌</button>
+ <button class="btn" id="lizard">🦎</button>   
+ <button class="btn" id="spock">🖖</button>
+</div>
+<h2><span id="lastScoreResult"></span></h2>
+ <div class="scores">
+ <h3>User<br><span id="userScore">0</span><br><span class="picks" id="userEmoji"></span></h3>
+ <h3>Computer<br><span id="computerScore">0</span><br><span class="picks" id="computerEmoji"></span></h3>   
+</div>
+
+<div class="bottom-buttons">
+<button class="refresh-button" onclick="window.location.reload()">Refresh Page</button>
+<span class="rules-btn"><a class="rules" href="https://the-big-bang-theory.com/rock-paper-scissors-lizard-spock/#:~:text=As%20Sheldon%20explains%2C%20%22Scissors%20cuts,has%2C%20rock%20crushes%20scissors.%22" target="_blank">Rules</a></span>
+</div>
+</body>
+</html>
